@@ -53,7 +53,7 @@ Menu
   gap: 1rem 2rem;
   max-width: 25rem;
 }
-.photo {
+.photo-menu {
   object-fit: cover;
   height: 200px;
   width: 100%;
@@ -83,7 +83,7 @@ Menu
     gap: 0 1.25rem;
     max-width: 40rem;
   }
-  .photo {
+  .photo-menu {
     height: 175px;
   }
 }
@@ -92,7 +92,7 @@ Menu
     width: 95vw;
     grid-template-columns: 1fr 1fr;
   }
-  .photo {
+  .photo-menu {
     height: 150px;
   }
 }
