@@ -3,6 +3,8 @@ import Menu from "./Menu";
 import Categories from "./Categories";
 import items from "./data";
 
+import "./App.css";
+
 function App() {
   const [menuItems, setMenuItems] = useState(items);
   const [categories, setCategories] = useState([]);

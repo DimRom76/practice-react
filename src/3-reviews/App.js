@@ -1,13 +1,15 @@
 import React from "react";
 import Review from "./Review";
 
+import "./App.css";
+
 function App() {
   return (
-    <main>
-      <section className="container">
+    <main className="main-review">
+      <section className="container-review">
         <div className="title">
           <h2>our reviews</h2>
-          <div className="underline"></div>
+          <div className="underline-review"></div>
         </div>
         <Review />
       </section>
