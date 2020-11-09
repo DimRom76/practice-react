@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import data from "./data";
 import SingleQuestion from "./Question";
 
-import "./App.css";
-
 function App() {
   const [questions, setQuestions] = useState(data);
   return (
