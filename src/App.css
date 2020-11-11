@@ -147,3 +147,12 @@ p {
   margin-top: 2rem;
   font-size: 1.2rem;
 }
+
+.div-main {
+  display: flex;
+}
+
+.div-main nav {
+  margin-top: 50px;
+  margin-right: 50px;
+}
