@@ -18,7 +18,7 @@ Menu
   margin-left: auto;
   margin-right: auto;
 }
-.btn-container {
+.btn-container-menu {
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@ Menu
   background: var(--clr-gold);
   color: var(--clr-white);
 }
-.section-center {
+.section-center-menu {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;

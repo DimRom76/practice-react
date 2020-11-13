@@ -19,7 +19,7 @@ Slider
   margin-right: 1rem;
   font-weight: 700;
 }
-.section-center {
+.section-center-slider {
   margin: 0 auto;
   margin-top: 4rem;
   width: 80vw;
@@ -29,9 +29,9 @@ Slider
   text-align: center;
   position: relative;
   display: flex;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
-.person-img {
+.person-img-rev {
   border-radius: 50%;
   margin-bottom: 1rem;
   width: 150px;
@@ -100,22 +100,22 @@ article h4 {
     font-size: 1.5rem;
   }
 }
-article {
+.section-center-slider > article {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* opacity: 0; */
+  opacity: 0;
   transition: var(--transition);
 }
-/* article.activeSlide {
+.section-center-slider > article.activeSlide {
   opacity: 1;
   transform: translateX(0);
 }
-article.lastSlide {
+.section-center-slider > article.lastSlide {
   transform: translateX(-100%);
 }
-article.nextSlide {
+.section-center-slider > article.nextSlide {
   transform: translateX(100%);
-} */
+}
