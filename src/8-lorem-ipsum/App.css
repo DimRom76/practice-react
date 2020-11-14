@@ -16,6 +16,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
 label {
   font-size: 1.25rem;
   color: var(--clr-primary-1);
