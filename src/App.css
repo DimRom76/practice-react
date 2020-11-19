@@ -148,12 +148,11 @@ p {
   font-size: 1.2rem;
 }
 
-.div-main {
-  display: flex;
-}
-
 .div-main nav {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.div-main nav li {
+  margin-left: 20px;
 }
